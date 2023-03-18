@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.img-logo {
+  width: 5rem;
+}
+
+.header {
+  width: 100vw;
+  color: #fff;
+  background-image: linear-gradient(to right, gray, #000);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.3rem;
+  display: flex;
+}
+
+.nav-items ul {
+  width: 400px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1rem;
+  list-style: none;
+  display: flex;
+}
+
+a, li {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.6c313d5e.css.map */
